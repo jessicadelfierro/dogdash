@@ -1,0 +1,114 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 1.3;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-weight: 900;
+    color: #000;
+}
+
+.btn-started {
+    margin: 5% 3% 5% 0;
+}
+
+/********************* TITLE *********************/
+
+#title {
+    background-color: #54BAB9;
+    color: #fff;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.title-img {
+    width: 100%;
+    position: absolute;
+}
+
+/*navigation bar*/
+.navbar {
+    padding: 4.5rem;
+    padding-left: 1rem;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+/********************* PLANS *********************/
+
+#plans {
+    background-color: white;
+    position: relative;
+    padding: 100px;
+    text-align: center;
+    z-index: 0;
+    color: #8a8a8a;
+    line-height: 2;
+}
+
+#plans h2 {
+    color: #000;
+}
+
+.col-pricing {
+    padding: 3% 2%;
+}
+
+.card-body h2 {
+    padding-bottom: 10px;
+}
+
+/********************* REVIEWS *********************/
+#review {
+    background-color: #2e9fb0;
+    color: white;
+    padding: 12% 0;
+    text-align: center;
+}
+
+.carousel-item {
+    padding: 0% 20%;
+}
+
+.carousel-item h2 {
+    padding-bottom: 20px;
+    line-height: 1.5;
+}
+
+.review-img {
+    width: 8%;
+    border-radius: 50%;
+    margin-right: 3%;
+}
+
+/********************* MEDIA QUERIES *********************/
+@media (max-width: 991px) {
+    .title-img {
+        position: static;
+        width: 60%;
+    }
+    .container-fluid {
+        padding-bottom: 0;
+    }
+}
