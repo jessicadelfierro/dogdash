@@ -1,0 +1,29 @@
+{
+  "name": "dogdash",
+  "version": "1.0.0",
+  "description": "My bootstrap project for NuCamp.",
+  "main": "index.js",
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessicadelfierro/dogdash.git"
+  },
+  "author": "Jessica Del Fierro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jessicadelfierro/dogdash/issues"
+  },
+  "homepage": "https://github.com/jessicadelfierro/dogdash#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
