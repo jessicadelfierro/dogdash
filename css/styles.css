@@ -144,6 +144,13 @@ h3 {
     color: #1f6c78;
 }
 
+/********************* CONTACT *********************/
+#contact {
+    background-color: #fff;
+    position: relative;
+    padding: 10% 5%;
+}
+
 /********************* FOOTER *********************/
 footer {
     padding: 8% 10% 3%;
