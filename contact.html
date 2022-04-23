@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DogDash</title>
+
+        <!--External CSS-->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+        <link rel="stylesheet" href="/css/styles.css" />
+    </head>
+    <body>
+
+        <section id="title">
+            <div class="container-fluid">
+                <!-- Navigation Bar -->
+                <nav class="navbar navbar-expand-md navbar-dark">
+                    <a class="navbar-brand" href="#">DogDash</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/index.html#plans">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <!-- Banner -->
+                <div class="row">
+                    <div class="col-lg-7">
+                        <h1>Your dog's new favorite meal just got better.</h1>
+                        <button class="btn btn-info btn-lg btn-started">Get Started</button>
+                    </div>
+                    <div class="col-lg">
+                        <img class="title-img "src="/img/title-img.png" alt="happy dog"/>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="feedback">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="firstName" class="col-form-label">First Name</label>
+                                    <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="lastName" class="col-form-label">Last Name</label>
+                                    <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="phoneNum" class="col-form-label">Phone Number</label>
+                                    <input type="text" class="form-control" id="phoneNum" name="phoneNum" placeholder="1-(800)-567-8910">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="email" class="col-form-label">Email Address</label>
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com">
+                                </div>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input class="form-check-input" type="checkbox" id="newsletter">
+                                <label class="form-check-label" for="newsletter">Send me offers and newsletters</label>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-form-label" for="feedback">Feedback</label>
+                                <textarea class="form-control" id="feedback" name="feedback" placeholder="Feedback" rows="2"> </textarea>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+
+        <!-- Reasons section -->
+        <section id="reasons">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <i class="reason-icon fa-solid fa-shield-dog"></i>
+                        <h3>Comfort & Saftey</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="col">
+                        <i class="reason-icon fa-solid fa-circle-check"></i>
+                        <h3>High Quality</h3>
+                        <p>Arcu non odio euismod lacinia at. Elit ut aliquam purus sit. Eleifend donec pretium vulputate sapien nec.</p>
+                    </div>
+                    <div class="col">
+                    <i class="reason-icon fa-solid fa-leaf"></i>
+                    <h3>Natural Products</h3>
+                    <p>Fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis. Tortor consequat id porta nibh venenatis cras sed felis.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col pt-5">
+                        <button class="btn btn-outline-light btn-lg">Get Started</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <a href="#"><i class="fa-brands fa-instagram social-icon"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter social-icon"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f social-icon"></i></a>
+            <a href="#"><i class="fa-brands fa-tiktok social-icon"></i></a>
+            <p class="text-black-50">© Copyright DogDash</p>
+        </footer>
+        
+        <!-- Bootstrap's JS -->
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <!--Font Awesome-->
+        <script src="https://kit.fontawesome.com/51cc33685e.js" crossorigin="anonymous"></script>
+    </body>
+</html>
