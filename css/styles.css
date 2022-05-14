@@ -192,6 +192,10 @@ footer {
     .title-img {
         width: 130%;
     }
+
+    .about-img {
+        width: 170%;
+    }
 }
 
 @media (max-width: 991px) {
@@ -200,9 +204,15 @@ footer {
         width: 60%;
     }
     .contact-img {
-        width: 100%;
         position: static;
+        width: 80%;
     }
+
+    .about-img {
+        position: static;
+        width: 80%;
+    }
+
     .container-fluid {
         padding-bottom: 0;
     }
